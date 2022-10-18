@@ -324,7 +324,7 @@ p {
     order: 1;
     padding: 20vh;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     text-align: center;
     font-size: 20px;
     width: 80%;

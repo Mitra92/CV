@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.title {
+    width: 100%;
+    height: 100vh;
+    background: url(https://mota.ru/upload/wallpapers/source/2013/08/26/19/04/37232/UshCnURMig.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 45vh;
+    font-family: 'Maven Pro', sans-serif;
+    color: #fff;
+}
+
+.discription {
+    color: #fff;
+    padding: 8vh;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+a,
+h2,
+button,
+p {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+@media (min-width: 500px) {
+    .container-1 {
+        display: flex;
+        height: 6vh;
+        width: 100%;
+        align-items: center;
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 18px;
+        text-align: center;
+        flex-direction: row;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    flex-direction: column;
+    background: url(https://w-dog.ru/wallpapers/15/11/462866441166847.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.container-3 {
+    display: flex;
+    background: url(http://sdelatpol.com/wp-content/uploads/2015/02/derevjannyj-pol.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: 'Maven Pro', sans-serif;
+    color: #fff;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.container-4 {
+    display: flex;
+    background: url(https://funart.pro/uploads/posts/2021-04/thumbs/1618605985_1-funart_pro-p-oboi-fon-chernaya-doska-fon-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Maven Pro', sans-serif;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+
+.container-1 div {
+    background-size: cover;
+    height: 6vh;
+    align-items: center;
+    margin: auto;
+}
+
+.container-2 div {
+    background-size: cover;
+}
+
+.container-3 div,
+.container-4 div {
+    padding: 8vh;
+    background-size: cover;
+}
+
+.container-4 div {
+    /* padding: 8vh; */
+    background-size: cover;
+}
+
+.btnUp div {
+    padding-bottom: 0;
+    align-items: center;
+    width: 200px;
+    height: 5vh;
+}
+
+.box-1 {
+    flex: 1;
+    order: 1;
+    background: url(https://w-dog.ru/wallpapers/15/11/462866441166847.jpg);
+    height: 100%;
+    line-height: 6vh;
+}
+
+.box-2 {
+    flex: 1;
+    order: 2;
+    background: url(http://sdelatpol.com/wp-content/uploads/2015/02/derevjannyj-pol.jpg);
+    height: 100%;
+    line-height: 6vh;
+}
+
+.box-3 {
+    flex: 1;
+    order: 4;
+    background: url(https://mota.ru/upload/wallpapers/source/2013/08/26/19/04/37232/UshCnURMig.jpg);
+    height: 100%;
+    line-height: 6vh;
+}
+
+.box-4 {
+    flex: 1;
+    order: 3;
+    background: url(https://funart.pro/uploads/posts/2021-04/thumbs/1618605985_1-funart_pro-p-oboi-fon-chernaya-doska-fon-1.jpg);
+    height: 100%;
+    line-height: 6vh;
+}
+
+@media (min-width: 500px) {
+    .box-2_1 {
+        flex-direction: row;
+        display: flex;
+        flex: 1;
+        order: 1;
+        text-align: start;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 8vh;
+        padding-left: 8vh;
+        padding-right: 8vh;
+    }
+    .box-2_2 {
+        flex-direction: row;
+        display: flex;
+        flex: 1;
+        order: 2;
+        text-align: start;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 8vh;
+        padding-left: 8vh;
+        padding-right: 8vh;
+    }
+}
+
+.box-2_1_1 {
+    flex: 1;
+    order: 1;
+    text-align: start;
+    justify-content: center;
+    min-width: 500px;
+}
+
+.box-2_1_2 {
+    flex: 2;
+    order: 2;
+    justify-content: center;
+}
+
+.box-2_2_1 {
+    flex: 2;
+    order: 1;
+    justify-content: center;
+}
+
+.box-2_2_2 {
+    flex: 1;
+    order: 2;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+}
+
+@media (min-width: 500px) {
+    .years2011 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .years2013 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-left: 0px;
+        justify-content: space-between;
+    }
+    .years2014 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .years2018 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .years2022 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    }
+}
+
+.box-3_1 {
+    flex: 1;
+    order: 1;
+}
+
+.box-3_2 {
+    flex: 4;
+    order: 2;
+}
+
+.box-3_3 {
+    flex: 1;
+    order: 1;
+}
+
+.box-3_4 {
+    flex: 4;
+    order: 2;
+}
+
+.box-3_5 {
+    flex: 1;
+    order: 1;
+}
+
+.box-3_6 {
+    flex: 4;
+    order: 4;
+}
+
+.box-3_7 {
+    flex: 1;
+    order: 1;
+}
+
+.box-3_8 {
+    flex: 4;
+    order: 4;
+}
+
+.box-3_9 {
+    flex: 1;
+    order: 1;
+}
+
+.box-3_10 {
+    flex: 4;
+    order: 4;
+}
+
+@media (min-width: 500px) {
+    .contact {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 85vh;
+        top: 0;
+    }
+}
+
+.box-4_1 {
+    flex: 2;
+    order: 1;
+    padding: 20vh;
+    align-items: left;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 20px;
+    width: 80%;
+}
+
+.box-4_2 {
+    flex: 1;
+    order: 2;
+    padding: 10vh;
+    align-items: flex-end;
+    width: 500px;
+}
+
+#top1 {
+    display: flex;
+    order: 1;
+    text-align: center;
+    background: url(https://mota.ru/upload/wallpapers/source/2013/08/26/19/04/37232/UshCnURMig.jpg);
+    border-radius: 100px;
+    text-decoration-color: fff;
+    font-size: 16px;
+    width: 150px;
+    height: 4vh;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}

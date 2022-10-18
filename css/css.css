@@ -330,14 +330,6 @@ p {
     width: 80%;
 }
 
-.box-4_2 {
-    flex: 1;
-    order: 2;
-    padding: 10vh;
-    align-items: flex-end;
-    width: 500px;
-}
-
 #top1 {
     display: flex;
     order: 1;

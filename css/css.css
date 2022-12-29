@@ -19,7 +19,7 @@ body {
 .title {
     width: 100%;
     height: 100vh;
-    background: url(https://i.pinimg.com/originals/56/2d/b8/562db8b84f45a32601f94adc2810c7c7.jpg);
+    background: url(https://images.wallpaperscraft.ru/image/single/derevyannyj_poverkhnost_tekstura_doski_118443_1920x1080.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -93,7 +93,7 @@ p {
 
 .container-4 {
     display: flex;
-    background: url(https://i.pinimg.com/originals/56/2d/b8/562db8b84f45a32601f94adc2810c7c7.jpg);
+    background: url(https://funart.pro/uploads/posts/2021-04/thumbs/1618605985_1-funart_pro-p-oboi-fon-chernaya-doska-fon-1.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -155,7 +155,7 @@ p {
 .box-3 {
     flex: 1;
     order: 4;
-    background: url(https://mota.ru/upload/wallpapers/source/2013/08/26/19/04/37232/UshCnURMig.jpg);
+    background: url(https://images.wallpaperscraft.ru/image/single/derevyannyj_poverkhnost_tekstura_doski_118443_1920x1080.jpg);
     height: 100%;
     line-height: 6vh;
 }
@@ -323,11 +323,19 @@ p {
     flex: 2;
     order: 1;
     padding: 20vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    align-items: left;
+    justify-content: flex-start;
+    text-align: left;
     font-size: 20px;
     width: 80%;
+}
+
+.box-4_2 {
+    flex: 1;
+    order: 2;
+    padding: 10vh;
+    align-items: flex-end;
+    width: 500px;
 }
 
 #top1 {

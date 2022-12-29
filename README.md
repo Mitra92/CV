@@ -1,2 +1,2 @@
 # CV
-https://mitra92.github.io/CV/
+https://dmitriy-malyutin.github.io/CV/

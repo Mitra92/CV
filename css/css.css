@@ -93,7 +93,7 @@ p {
 
 .container-4 {
     display: flex;
-    background: url(https://look.com.ua/pic/201209/1920x1200/look.com.ua-14071.jpg);
+    background: url(https://phonoteka.org/uploads/posts/2021-06/1623216403_7-phonoteka_org-p-tyomnoe-derevo-tekstura-doski-besshovnaya-9.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -163,7 +163,7 @@ p {
 .box-4 {
     flex: 1;
     order: 3;
-    background: url(https://look.com.ua/pic/201209/1920x1200/look.com.ua-14071.jpg);
+    background: url(https://phonoteka.org/uploads/posts/2021-06/1623216403_7-phonoteka_org-p-tyomnoe-derevo-tekstura-doski-besshovnaya-9.jpg);
     height: 100%;
     line-height: 6vh;
 }

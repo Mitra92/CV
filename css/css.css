@@ -323,11 +323,19 @@ p {
     flex: 2;
     order: 1;
     padding: 20vh;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: flex-start;
     text-align: left;
     font-size: 20px;
     width: 80%;
+}
+
+.box-4_2 {
+    flex: 1;
+    order: 2;
+    padding: 10vh;
+    align-items: flex-end;
+    width: 500px;
 }
 
 #top1 {

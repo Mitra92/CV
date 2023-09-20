@@ -31,3 +31,28 @@ function slowScroll(id) {
     }, 200);
     return false;
 }
+
+// Обработка данных из формы
+document.addEventListener("DOMContentLoaded", function() {
+    var contactForm = document.getElementById("contactForm");
+    contactForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        // Получаем данные из формы
+        var lastName = document.getElementById("lastName").value;
+        var firstName = document.getElementById("firstName").value;
+        var phoneNumber = document.getElementById("phoneNumber").value;
+        var email = document.getElementById("email").value;
+
+        // Здесь можно добавить код для отправки данных на сервер
+        // Например, с использованием AJAX запроса или другого метода
+        // Для примера, выведем данные в консоль
+        console.log("Фамилия:", lastName);
+        console.log("Имя:", firstName);
+        console.log("Номер телефона:", phoneNumber);
+        console.log("Email:", email);
+        
+        // Очищаем поля формы
+        contactForm.reset();
+    });
+});

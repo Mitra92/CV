@@ -53,6 +53,6 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log("Email:", email);
         
         // Очищаем поля формы
-        contactForm.reset();
+        // contactForm.reset();
     });
 });
